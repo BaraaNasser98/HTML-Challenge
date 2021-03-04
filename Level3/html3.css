@@ -1,0 +1,145 @@
+*
+{
+	padding: 0;
+	margin: 0;
+box-sizing: border-box;
+}
+body {
+	
+background-position: center;
+font-family: sans-serif;
+background-image: url(B.jpg);
+background-size: cover;
+}
+
+header {
+
+	background-image:url(img.jpg);
+	font-family: sans-serif;
+	text-align: center;
+	height: 200px;
+	background-size: cover;
+	color: white;
+	padding: 40px;
+    margin: 10px;
+}
+
+.H{ float: left;
+margin:20px;
+padding: 50px;
+display-inline:block;
+	position:absolute;
+}
+
+h5{margin:0px;
+	float:left;}
+	
+.menu-bar ul {
+	margin: 0px;
+	overflow: hidden;
+	background-color: gray;
+	color: white;
+}
+
+ ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+   
+}
+
+ a:hover {
+	background-color: red;
+	
+}
+.menu-bar{
+	
+ margin: 10px;
+text-align: center;
+
+}
+
+.menu-bar ul li
+{   border-right: 1px solid ;
+	float: left;
+    width: 223px;
+    padding: 15px;	
+    list-style-type: none;
+	
+}
+.menu-bar a{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	font-size: 13px;
+
+}
+.h1{
+	display-inline:block;
+	position:absolute;
+	color:white;
+	margin-left:35px;
+	padding-top:10px;
+}
+.ul2 {
+	color:white;
+	margin-left:40px;
+	padding-top:50px;
+	
+}
+.h2{
+	
+	color:white;
+	
+	display-inline:block;
+	position:absolute;
+	margin-left:300px;
+	padding-top:10px;	
+}
+.ul2 li{
+	
+padding:1px;		
+}
+.p1 {
+	
+	display-inline:block;
+	position:absolute;
+	padding-left:300px;
+	padding-top:60px;
+    border-top:1px solid white;	
+	
+}
+.
+.input{
+
+	color:white;
+padding-top:10px;
+padding-left:70px;	
+}
+.input input{
+	margin:5px;
+ 
+   }
+   
+   
+   
+.radio{
+	
+	color:white;
+	bottom:50px;
+
+}
+.submit{
+	
+	display-inline:block;
+	position:absolute;
+	right:20px;
+	
+	
+}
+.radio{
+	
+	
+	color:white;
+}
