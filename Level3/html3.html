@@ -1,72 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
- <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>HTML2</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Candal|Lora&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="html3.css">
+<title> level 3</title>
+<link rel="stylesheet" href="html3.css">
 </head>
 <body>
- <header>
-   <div class="H">
+
+<div id="content"> 
+  <header> 
+    <div class="top-header">
       <h1>Enter Site Title</h1>
-	  <h5>Enter Site The Title<h5>
-   </div>
-	 </header>
-	 <div class="menu-bar">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">New Page 1</a></li>
-      <li><a href="#">New Page 2</a></li>
-      <li><a href="#">New Page 3</a></li>
-      <li><a href="#">New Page 4</a></li>
+      <p>Enter Site </p>
+    </div>
+	
+    <div class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">New Page 1</a></li>
+        <li><a href="#">New Page 2</a></li>
+        <li><a href="#">New Page 3</a></li>
+        <li><a href="#">New Page 4</a></li>
       </ul>
- </div>
- 
- 
-  
- <h3 class="h1">Main Menu</h3>
- 
- <div class="p11">
- <h3 class="h2">Gallery</h3>
+    </div>
 
- <div class="p1">
- <p>Technology can be a powerful tool for transforming learning. 
- It can help affirm and advance relationships between educators and students, 
- reinvent our 
- approaches to learning and collaboration, shrink long-standing equity and accessibility gaps, 
- and adapt learning experiences to meet the needs of all learners.
-Our schools, community colleges, and universities should be 
-incubators of exploration and invention. Educators should be 
-collaborators in learning, seeking new knowledge and constantly 
-acquiring new skills alongside their students. Education leaders 
-should set a vision for creating learning experiences that provide 
-</p>
- </div>
- </div>
-  
+</header>
 
- <ul class="ul2">
-  <li><u>Main Menu 1</u></li>
-  <li><u>Main Menu 2</u></li>
-  <li><u>Main Menu 3</u></li>
-  <li><u>Main Menu 4</u></li>
-  <li><u>Main Menu 5</u></li>
+  <div id="page_content"> 
   
-  </ul>
+    <div class="left_side_bar"> 
 
-  <div class="input">
-  Name:<input type="text"></input><br>
-  Email:Email:<input type="email"/><br>
-  Message:<input type="text"></input></div>
-  <input class="submit "type="submit"/>
-  <div class="radio">
-  <input   type="radio"  name="g"/> Complaint
-<input type="radio" id="w" name="g"/>
-<label for="w">suggestion</label>
- </div>
-</body>
-</html>
+      <div class="col_1">
+        <h1>Main Menu</h1>
+        <div class="box">
+          <ul>
+            <li><a href="#">Menu Item 1</a></li>
+            <li><a href="#">Menu Item 2</a></li>
+            <li><a href="#">Menu Item 3</a></li>
+            <li><a href="#">Menu Item 4</a></li>
+            <li><a href="#">Menu Item 5</a></li>
+            <li><a href="#">Menu Item 6</a></li>
+            <li><a href="#">Menu Item 7</a></li>
+            <li><a href="#">Menu Item 8</a></li>
+            <li><a href="#">Menu Item 9</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col_1">
+        <h1>Block</h1>
+        <!--hello-->
+        <div class="box">
+          <p>Enter Block content here...</p>
+          <br>
+          <p>Hypertext Markup Language (HTML) is the standard markup language
+		  for documents designed to be displayed in
+		  a web browser
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="right_section">
+        <!--paragraphe-->
+      <div class="common_content">
+        <h2>Gallery</h2>
+        <hr>
+        <p>HTML 2.0 was published as RFC 1866. Supplemental RFCs added capabilities:
+         November 25, 1995: RFC 1867 (form-based file upload)
+         May 1996: RFC 1942 (tables)
+           <br/>
+           August 1996: RFC 1980 (client-side image maps)
+		   <br/>January 1997: RFC 2070 (internationalization)</p> <br/> 
+
+        </p>
+        </div>
+        <!--subcription-->
+      <div class="top_content">
+        <div class="column_one">
+          <h2>Subscription</h2>
+          <p> to subscribe tell us your information <br/>
+              here<br/>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name"> <br/>
+            <label for="email">Email:</label>
+             <input type="email" id="email" name="email"> <br/>
+             <label for="Name">Message:</label>
+             <input type="text" id="Name" name="Name"> <br/>
+             <p><input type="submit" value="submit"></p></div>
+        </p>
+          <br>
+      
+               <!--Other Services-->
+          <h2>Other Services</h2>
+     
+          <p>if you want tell us about website (complaint,suggestion) <br/>
+            use those to know
+          <br>
+          <form>
+            <input type="radio" id="male" name="1" value="complaint">
+            <label for="complaint">complaint</label><br>
+            <input type="radio" id="female" name="1" value="suggestion">
+            <label for="suggestion">suggestion</label><br>
+     
+        </form>
+      </div>
+    </div>
+<!--4 br-->
+    <div class="clear"></div>
+    <footer>Copyright &copy; 2014. Design by <a href="www.html.com" t>Bara'a Bilal Nasser</a><br>
+    
+    </footer>
+	
+  </div>
+
+</div>
+
+</body></html>
